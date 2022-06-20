@@ -1,0 +1,23 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.image {
+    background-image: url('./images/image-qr-code.png');
+    margin: 15px;
+    height: 300px;
+    margin-top: 15px;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+
+.desc {
+    font-size: 15px;
+}
