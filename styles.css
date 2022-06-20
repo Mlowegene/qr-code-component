@@ -13,7 +13,7 @@ body {
 .card {
     background-color: hsl(0, 0%, 100%);
     width: 280px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .image {
