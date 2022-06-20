@@ -2,22 +2,42 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .card {
     background-color: hsl(0, 0%, 100%);
-    width: 300px;
+    width: 280px;
     border-radius: 10px;
 }
 
 .image {
     background-image: url('./images/image-qr-code.png');
     margin: 15px;
-    height: 300px;
-    margin-top: 15px;
+    height: 250px;
     background-size: cover;
     border-radius: 10px;
     
 }
 
 .desc {
+    font-family: Outfit;
     font-size: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.desc h3 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.desc p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 300;
 }
