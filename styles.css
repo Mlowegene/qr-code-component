@@ -12,23 +12,22 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    width: 280px;
+    display: flex;
+    flex-direction: column;
     border-radius: 15px;
+    max-width: 250px;
+    width: 250px;
+    padding: 15px;
 }
 
-.image {
-    background-image: url('./images/image-qr-code.png');
-    margin: 15px;
-    height: 250px;
-    background-size: cover;
+.image img{
+    width:100%;
     border-radius: 10px;
-    
 }
 
 .desc {
     font-family: Outfit;
     font-size: 15px;
-    margin: 15px;
     text-align: center;
 }
 
@@ -41,3 +40,19 @@ body {
     color: hsl(220, 15%, 55%);
     font-weight: 300;
 }
+
+/*=====================Media Queries==========================*/
+/* @media only screen and (max-width:375){
+    .card {
+        display: flex;
+        flex-direction: row;
+        border-radius: 15px;
+        max-width: 250px;
+        width: 250px;
+        padding: 15px;
+    }
+} */
+
+
+
+
