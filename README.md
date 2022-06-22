@@ -45,11 +45,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 i learned to deal with flex and media queries for responsiveness in css.
 
-/home/mlowe/Pictures/qr2.png
-
-/home/mlowe/Pictures/qr5.png
-
-```
 
 ### Useful resources
 
