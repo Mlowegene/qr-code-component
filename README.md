@@ -30,8 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: https://mlowegene.github.io/qr-code-component/
 
 ## My process
-   - Started to create HTML page stracture.
-   - Then i create CSS file for styling my page. 
+  
 
 ### Built with
 
